@@ -1,0 +1,18 @@
+{
+  "AlbedoImage": "materials/field_color.jpg",
+  "RoughnessImage": "materials/field_rough.jpg",
+  "NormalImage": "materials/field_normal.jpg",
+  "HeightImage": "materials/default/default_ao.tga",
+  "AOImage": "materials/field_ao.jpg",
+  "UVScale": 1,
+  "UVRotation": 0,
+  "Metalness": 0,
+  "NormalStrength": 1,
+  "HeightBlendStrength": 1,
+  "Surface": null,
+  "__references": [
+    "duccsoft.forest_sticks_tmat#60687"
+  ],
+  "IsValid": true,
+  "__version": 0
+}

@@ -1,0 +1,345 @@
+{
+  "__guid": "51d90ea2-1680-41d4-9fa6-9a8790d8d097",
+  "GameObjects": [
+    {
+      "__guid": "1274c1e7-2159-47d6-be45-978351a4f936",
+      "Flags": 0,
+      "Name": "Environment",
+      "Position": "367.5316,247.1895,738.2372",
+      "Enabled": true,
+      "Children": [
+        {
+          "__guid": "c0c2d304-b273-4ed3-909e-1576018805ae",
+          "Flags": 0,
+          "Name": "Skybox",
+          "Position": "0,0,50",
+          "Tags": "skybox",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.SkyBox2D",
+              "__guid": "9e7d307a-7f98-4a7a-80eb-df8760121580",
+              "SkyIndirectLighting": true,
+              "SkyMaterial": "materials/skybox/skybox_day_01.vmat",
+              "Tint": "1,1,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "24089cc6-5ee8-4257-a115-6aecbe334bf4",
+          "Flags": 0,
+          "Name": "Sun",
+          "Rotation": "0,0.6087614,0,0.7933534",
+          "Tags": "light_directional,light",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.DirectionalLight",
+              "__guid": "913f2de4-d4b4-4b1d-a44d-72db6310a2ef",
+              "FogMode": "Enabled",
+              "FogStrength": 1,
+              "LightColor": "0.96775,1,0.87907,1",
+              "Shadows": true,
+              "SkyColor": "0.53953,0.6086,1,1"
+            }
+          ]
+        },
+        {
+          "__guid": "c8afb10f-874e-4aa6-9bde-ae2765f0ca5a",
+          "Flags": 0,
+          "Name": "Fog",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.GradientFog",
+              "__guid": "bd967f54-7f16-4766-8fc6-22be282d1d88",
+              "Color": "1,1,1,0.2",
+              "EndDistance": 10000,
+              "FalloffExponent": 1,
+              "Height": 701.84,
+              "StartDistance": 3000,
+              "VerticalFalloffExponent": 0.99999857
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "__guid": "cb2d92ac-b6ba-428c-bc84-72dbf4adfcc5",
+      "Flags": 0,
+      "Name": "Camera",
+      "Position": "747.9883,-1812.909,208.0462",
+      "Rotation": "-0.04577406,0.02537297,0.873421,0.4841453",
+      "Tags": "maincamera",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.CameraComponent",
+          "__guid": "f829fb8c-ab95-4a5b-b8a7-127b80030711",
+          "BackgroundColor": "0.33333,0.46275,0.52157,1",
+          "ClearFlags": "All",
+          "FieldOfView": 60,
+          "IsMainCamera": true,
+          "Orthographic": false,
+          "OrthographicHeight": 1204,
+          "Priority": 1,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 20000,
+          "ZNear": 10
+        },
+        {
+          "__type": "Sandbox.DepthOfField",
+          "__guid": "f34ab5e2-3431-4013-8ca5-82deae6454bd",
+          "BackBlur": true,
+          "BlurSize": 1000,
+          "FocalDistance": 5000,
+          "FrontBlur": false
+        }
+      ]
+    },
+    {
+      "__guid": "801afcdf-724b-4527-9dcd-5a3ee952bc31",
+      "Flags": 0,
+      "Name": "Terrain",
+      "Position": "-10000,-10000,-200",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.Terrain",
+          "__guid": "72849086-067d-4c1a-a685-a79b14461976",
+          "__version": 1,
+          "ClipMapLodExtentTexels": 256,
+          "ClipMapLodLevels": 6,
+          "EnableCollision": true,
+          "IsTrigger": false,
+          "RenderType": "Off",
+          "Static": true,
+          "Storage": "field.terrain",
+          "TerrainHeight": 30000,
+          "TerrainSize": 19960
+        }
+      ]
+    },
+    {
+      "__guid": "670db815-07bb-4a10-9d0c-682cd3d8baf5",
+      "Flags": 0,
+      "Name": "apple_tree",
+      "Position": "519.2991,193.0948,-17.47722",
+      "Rotation": "-0.04538459,0.04538444,0.7056487,0.7056489",
+      "Enabled": true,
+      "__Prefab": "prefabs/trees/apple_tree.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "d57cb32c-2d26-4f61-90c5-c713430a6ee1",
+      "Flags": 0,
+      "Name": "apple_tree (1)",
+      "Position": "150.4787,274.6111,-31.96066",
+      "Rotation": "-0.05089897,0.01201556,0.9719173,0.2294374",
+      "Enabled": true,
+      "__Prefab": "prefabs/trees/apple_tree.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "a30acc49-c677-467f-860a-cc0e938ab5b6",
+      "Flags": 0,
+      "Name": "apple_tree (2)",
+      "Position": "-492.0847,216.366,-58.95991",
+      "Rotation": "-0.03342518,0.02065802,0.8499945,0.5253239",
+      "Enabled": true,
+      "__Prefab": "prefabs/trees/apple_tree.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "8cf70789-94b2-46df-b96e-cae22725bf5e",
+      "Flags": 0,
+      "Name": "apple_tree (3)",
+      "Position": "-513.4802,1286.932,-196.6644",
+      "Rotation": "-0.00000002980232,0,0.7071068,0.7071068",
+      "Enabled": true,
+      "__Prefab": "prefabs/trees/apple_tree.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "6eccea88-c494-4ae0-81cb-0a6de7acaf86",
+      "Flags": 0,
+      "Name": "apple_tree (4)",
+      "Position": "434.56,944.062,-106.0369",
+      "Rotation": "-0.0372088,0.0372088,0.706127,0.7061272",
+      "Enabled": true,
+      "__Prefab": "prefabs/trees/apple_tree.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "3ae18ef6-a893-484e-8950-4f93c1ac564d",
+      "Flags": 0,
+      "Name": "apple_tree (5)",
+      "Position": "-1138.101,1185.17,-190.4876",
+      "Rotation": "-0.009271279,0.02781358,0.3160928,0.9482751",
+      "Enabled": true,
+      "__Prefab": "prefabs/trees/apple_tree.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "b03d1430-95ef-4f2e-a304-212d62a75572",
+      "Flags": 0,
+      "Name": "apple_tree (6)",
+      "Position": "786.9437,-273.3933,15.3784",
+      "Rotation": "-0.01906398,0.01488471,0.7879732,0.6152344",
+      "Enabled": true,
+      "__Prefab": "prefabs/trees/apple_tree.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "f843e836-8afc-4f2a-a1a9-ac85a0c9e32b",
+      "Flags": 0,
+      "Name": "apple_tree (7)",
+      "Position": "-1038.428,20.66168,-138.0788",
+      "Rotation": "-0.09478509,0.01166865,0.9879711,0.1216256",
+      "Enabled": true,
+      "__Prefab": "prefabs/trees/apple_tree.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "fdc9eeed-8697-4870-894f-8a0211b92fd5",
+      "Flags": 0,
+      "Name": "apple_tree (8)",
+      "Position": "-482.7228,-678.9047,-68.6306",
+      "Rotation": "-0.08018482,-0.009663362,0.601629,-0.794682",
+      "Enabled": true,
+      "__Prefab": "prefabs/trees/apple_tree.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "9ea43a96-1984-4b24-983f-fcddc5489f21",
+      "Flags": 0,
+      "Name": "apple_tree (9)",
+      "Position": "226.9109,-802.7175,-20.71854",
+      "Rotation": "-0.06080807,0.03550214,0.5761115,-0.8143325",
+      "Enabled": true,
+      "__Prefab": "prefabs/trees/apple_tree.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "9229e01f-a361-4b44-9fc3-eae4a6d47ae3",
+      "Flags": 0,
+      "Name": "apple_tree (10)",
+      "Position": "-1581.94,-323.5463,-130.4147",
+      "Rotation": "-0.007669032,0.003177136,0.9238476,0.3826706",
+      "Enabled": true,
+      "__Prefab": "prefabs/trees/apple_tree.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "19ee9339-ddfb-4fbd-a666-8544e270976a",
+      "Flags": 0,
+      "Name": "apple_tree (11)",
+      "Position": "-2197.099,605.2356,-169.0802",
+      "Rotation": "-0.02898774,0.02898771,0.7065123,0.7065125",
+      "Enabled": true,
+      "__Prefab": "prefabs/trees/apple_tree.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "5cd6b58c-4756-41db-a33f-00747afa8620",
+      "Flags": 0,
+      "Name": "apple_tree (12)",
+      "Position": "-1847.691,1238.143,-147.7118",
+      "Rotation": "0.07193831,0.1090972,-0.5457702,0.827682",
+      "Enabled": true,
+      "__Prefab": "prefabs/trees/apple_tree.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "40056b18-9414-40f9-91d6-b68597308484",
+      "Flags": 0,
+      "Name": "apple_tree (13)",
+      "Position": "-2392.896,65.78134,-138.6007",
+      "Rotation": "-0.02400467,0.002955202,0.9922169,0.1221492",
+      "Enabled": true,
+      "__Prefab": "prefabs/trees/apple_tree.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "3afc09ae-709e-4abc-9ba9-d81c98e0989d",
+      "Flags": 0,
+      "Name": "apple_tree (14)",
+      "Position": "-1515.686,1674.692,-139.6555",
+      "Rotation": "0.02138211,0.06783205,-0.2998779,0.9513226",
+      "Enabled": true,
+      "__Prefab": "prefabs/trees/apple_tree.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "9c41080c-0699-4b9f-8545-023315d45461",
+      "Flags": 0,
+      "Name": "apple_tree (15)",
+      "Position": "-783.2534,2164.618,-162.6222",
+      "Rotation": "0.01519997,0.05299929,-0.2752628,0.9597867",
+      "Enabled": true,
+      "__Prefab": "prefabs/trees/apple_tree.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "4963e145-799f-4710-b56d-4daddbcc273d",
+      "Flags": 0,
+      "Name": "apple_tree (16)",
+      "Position": "-3274.642,624.3937,-165.9173",
+      "Rotation": "-0.03657776,-0.005935706,0.9864096,-0.1600713",
+      "Enabled": true,
+      "__Prefab": "prefabs/trees/apple_tree.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "41a5f2af-a94d-4212-8198-97fb518f5ed2",
+      "Flags": 0,
+      "Name": "apple_tree (17)",
+      "Position": "-2955.025,-180.8782,-173.7101",
+      "Rotation": "-0.04130456,0.002935469,0.9966286,0.07082916",
+      "Enabled": true,
+      "__Prefab": "prefabs/trees/apple_tree.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "d825859b-a0f8-4b98-b06a-900c21af07b0",
+      "Flags": 0,
+      "Name": "apple_tree (18)",
+      "Position": "-539.4048,2897.948,-81.93769",
+      "Rotation": "-0.1512486,-0.03180347,0.966841,-0.2033002",
+      "Enabled": true,
+      "__Prefab": "prefabs/trees/apple_tree.prefab",
+      "__PrefabVariables": {}
+    }
+  ],
+  "SceneProperties": {
+    "FixedUpdateFrequency": 50,
+    "MaxFixedUpdates": 5,
+    "NetworkFrequency": 30,
+    "NetworkInterpolation": true,
+    "PhysicsSubSteps": 1,
+    "ThreadedAnimation": true,
+    "TimeScale": 1,
+    "UseFixedUpdate": true,
+    "NavMesh": {
+      "Enabled": false,
+      "IncludeStaticBodies": true,
+      "IncludeKeyframedBodies": true,
+      "EditorAutoUpdate": true,
+      "AgentHeight": 64,
+      "AgentRadius": 16,
+      "AgentStepSize": 18,
+      "AgentMaxSlope": 40,
+      "ExcludedBodies": "",
+      "IncludedBodies": ""
+    }
+  },
+  "Title": "field",
+  "Description": "",
+  "ResourceVersion": 1,
+  "__references": [],
+  "IsValid": true,
+  "__version": 1
+}

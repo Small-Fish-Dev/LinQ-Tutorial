@@ -1,0 +1,14 @@
+
+Layer0
+{
+	shader "shaders/complex.shader_c"
+
+	TextureColor "models/cherry/cherry_material.001_basecolor.png"
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+	TextureNormal "models/cherry/cherry_material.001_normal.png"
+	TextureRoughness "models/cherry/cherry_material.001_roughness.png"
+	F_METALNESS_TEXTURE 1
+	F_SPECULAR 1
+	TextureMetalness "models/cherry/cherry_material.001_metallic.png"
+
+}

@@ -1,0 +1,202 @@
+{
+  "RootObject": {
+    "__guid": "7f85501c-a504-4184-92b7-26e34bb9fcce",
+    "Flags": 0,
+    "Name": "apple_tree",
+    "Enabled": true,
+    "Children": [
+      {
+        "__guid": "82597f14-920d-4729-9b4d-7b9353b1e8ae",
+        "Flags": 0,
+        "Name": "Model",
+        "Scale": "2,2,2",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.ModelRenderer",
+            "__guid": "7f115d16-750c-4fed-a7bc-17f3692487fa",
+            "BodyGroups": 18446744073709551615,
+            "Model": "models/apple_tree/apple_tree.vmdl",
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Tint": "1,1,1,1"
+          },
+          {
+            "__type": "Sandbox.ModelCollider",
+            "__guid": "b148cc19-dbcd-4b95-a333-5e1ef2c6d7f6",
+            "IsTrigger": false,
+            "Model": "models/apple_tree/apple_tree.vmdl",
+            "Static": true
+          }
+        ]
+      },
+      {
+        "__guid": "a64f270a-91c3-4b7e-8c8e-f06a6002382d",
+        "Flags": 0,
+        "Name": "apple",
+        "Position": "-26.34022,-46.91972,142.7402",
+        "Enabled": true,
+        "__Prefab": "prefabs/fruit/apple.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "1c6b37b6-1e69-4018-b02e-a42fbacb8a47",
+        "Flags": 0,
+        "Name": "apple (1)",
+        "Position": "-5.869183,-46.91972,131.8571",
+        "Enabled": true,
+        "__Prefab": "prefabs/fruit/apple.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "124889ef-2364-400b-8d6e-e9c5fc70f469",
+        "Flags": 0,
+        "Name": "apple (2)",
+        "Position": "12.3847,-46.91972,144.5056",
+        "Enabled": true,
+        "__Prefab": "prefabs/fruit/apple.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "bfb81de7-2bbd-4370-94a7-26715d0c796c",
+        "Flags": 0,
+        "Name": "apple (3)",
+        "Position": "12.3847,-30.63026,144.5056",
+        "Enabled": true,
+        "__Prefab": "prefabs/fruit/apple.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "0fa1f04d-ae33-410b-9dec-ab1d83e029f7",
+        "Flags": 0,
+        "Name": "apple (4)",
+        "Position": "12.3847,-12.55792,144.5056",
+        "Enabled": true,
+        "__Prefab": "prefabs/fruit/apple.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "414f7b45-d09e-4edb-91e2-66d2d42b167b",
+        "Flags": 0,
+        "Name": "apple (5)",
+        "Position": "12.3847,5.682896,137.9715",
+        "Enabled": true,
+        "__Prefab": "prefabs/fruit/apple.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "5b03125a-c2a0-4cc7-8457-4426c11f58e9",
+        "Flags": 0,
+        "Name": "apple (6)",
+        "Position": "-5.979947,5.682895,139.654",
+        "Enabled": true,
+        "__Prefab": "prefabs/fruit/apple.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "c0a935f4-0491-4355-b274-304be9898a96",
+        "Flags": 0,
+        "Name": "apple (7)",
+        "Position": "-26.91857,5.682894,137.6103",
+        "Enabled": true,
+        "__Prefab": "prefabs/fruit/apple.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "3ccdccc8-0f1e-4926-994b-659bcc3c1c98",
+        "Flags": 0,
+        "Name": "apple (8)",
+        "Position": "-26.91857,22.51793,126.6466",
+        "Enabled": true,
+        "__Prefab": "prefabs/fruit/apple.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "4176b8a7-780b-482c-9284-1ff447343f6b",
+        "Flags": 0,
+        "Name": "apple (9)",
+        "Position": "20.33371,30.91831,126.6466",
+        "Enabled": true,
+        "__Prefab": "prefabs/fruit/apple.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "266bd8d0-64a3-43df-8a51-f62c5f3a0b40",
+        "Flags": 0,
+        "Name": "apple (10)",
+        "Position": "20.33371,-82.87571,126.6466",
+        "Enabled": true,
+        "__Prefab": "prefabs/fruit/apple.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "90e60357-1e75-4bc6-80e7-f21becd9b8c0",
+        "Flags": 0,
+        "Name": "apple (11)",
+        "Position": "-3.379148,-94.92876,126.6466",
+        "Enabled": true,
+        "__Prefab": "prefabs/fruit/apple.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "1f9d0a80-defc-4867-8800-9dd71851ab02",
+        "Flags": 0,
+        "Name": "apple (12)",
+        "Position": "-3.379148,-68.8032,140.338",
+        "Enabled": true,
+        "__Prefab": "prefabs/fruit/apple.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "5383eca9-2997-4e75-bcac-3330b03d21de",
+        "Flags": 0,
+        "Name": "apple (13)",
+        "Position": "34.49,-68.8032,132.5459",
+        "Enabled": true,
+        "__Prefab": "prefabs/fruit/apple.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "28c6dc32-7416-4039-a338-283ffd0b551f",
+        "Flags": 0,
+        "Name": "apple (14)",
+        "Position": "8.851301,-4.052546,117.0965",
+        "Enabled": true,
+        "__Prefab": "prefabs/fruit/apple.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "c3578c69-f2f5-4e4e-b254-0ebff51dea1a",
+        "Flags": 0,
+        "Name": "apple (15)",
+        "Position": "18.43813,2.866725,122.6482",
+        "Enabled": true,
+        "__Prefab": "prefabs/fruit/apple.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "7f9422f1-579a-48d1-b9bc-d119b94d68ec",
+        "Flags": 0,
+        "Name": "apple (16)",
+        "Position": "-1.19957,-52.15707,117.0756",
+        "Enabled": true,
+        "__Prefab": "prefabs/fruit/apple.prefab",
+        "__PrefabVariables": {}
+      }
+    ],
+    "__variables": []
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "IsValid": true,
+  "__version": 1
+}

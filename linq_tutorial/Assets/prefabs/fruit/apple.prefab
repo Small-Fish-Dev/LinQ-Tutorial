@@ -1,0 +1,62 @@
+{
+  "RootObject": {
+    "__guid": "72334073-bc11-4245-a9a1-acee613925e1",
+    "Flags": 0,
+    "Name": "apple",
+    "Enabled": true,
+    "Children": [
+      {
+        "__guid": "37e5f007-eb5a-45ee-b11b-dea0f4c41873",
+        "Flags": 0,
+        "Name": "Model",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.ModelRenderer",
+            "__guid": "d8c799f5-5068-4eec-a173-528c4836c0be",
+            "BodyGroups": 18446744073709551615,
+            "Model": "models/apple/apple.vmdl",
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Tint": "1,1,1,1"
+          },
+          {
+            "__type": "Sandbox.ModelCollider",
+            "__guid": "50442646-282a-47f4-a255-adaa9f0d36d9",
+            "IsTrigger": false,
+            "Model": "models/apple/apple.vmdl",
+            "Static": false
+          },
+          {
+            "__type": "Sandbox.Rigidbody",
+            "__guid": "a47a77a1-1a5a-43f9-a615-90f0254f2cd9",
+            "AngularDamping": 100,
+            "Gravity": true,
+            "LinearDamping": 0,
+            "Locking": {},
+            "MassCenterOverride": "0,0,0",
+            "MassOverride": 0,
+            "MotionEnabled": true,
+            "OverrideMassCenter": false,
+            "RigidbodyFlags": 0,
+            "StartAsleep": false
+          }
+        ]
+      }
+    ],
+    "__variables": []
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "IsValid": true,
+  "__version": 1
+}
